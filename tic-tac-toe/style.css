@@ -1,0 +1,95 @@
+body {
+  background-color: #ffffff;
+}
+
+h1 {
+  text-align: center;
+  font-family: cursive;
+  color: #2bd3d6;
+  font-size: 5vmin;
+}
+
+h3 {
+  text-align: center;
+  font-family: cursive;
+  color: #229ea1;
+  font-size: 2.5vmin;
+}
+
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonContainer button {
+  background-color: #2bd3d6;
+  color: #0f4b4d;
+  border: none;
+  border-radius: 1vmin;
+  font-family: cursive;
+  text-align: center;
+  margin: 1vmin;
+  padding: 1vmin;
+  height: 5vmin;
+}
+
+.buttonContainer button:hover {
+  cursor: pointer;
+}
+
+.buttonContainer button:active {
+  background-color: #0f4b4d;
+  color: #2bd3d6;
+}
+
+.buttonContainer button:focus {
+  outline: none;
+}
+
+#currentTurnElement {
+  display: inline;
+  color: #000000;
+}
+
+#board {
+  display: grid;
+
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+
+  margin: auto;
+  width: 50vmin;
+  height: 50vmin;
+
+  border-radius: 1vmin;
+}
+
+#board .box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: cursive;
+  font-size: 7.5vmin;
+  border: 0.5vmin solid #0f4b4d;
+  border-radius: 1vmin;
+}
+
+#board .box:hover {
+  cursor: pointer;
+}
+
+#board .box.x {
+  color: #ff4545;
+}
+
+#board .box.x:hover {
+  cursor: default;
+}
+
+#board .box.o {
+  color: #00ccff;
+}
+
+#board .box.o:hover {
+  cursor: default;
+}
