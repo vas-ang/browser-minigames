@@ -32,6 +32,11 @@ h3 {
   margin: 1vmin;
   padding: 1vmin;
   height: 5vmin;
+  font-size: 2vmin;
+}
+
+.buttonContainer button.selected {
+  border: 0.5vmin solid #0f4b4d;
 }
 
 .buttonContainer button:hover {
