@@ -1,0 +1,20 @@
+@font-face {
+  font-family: pixelated;
+  src: url("./font/Pixelated.ttf");
+}
+
+body {
+  margin: 0;
+  background-color: #323232;
+}
+
+.playground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+}

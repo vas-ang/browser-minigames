@@ -1,0 +1,33 @@
+{
+  "framesPerSecond": 60,
+  "playerX": 100,
+  "playerY": 400,
+  "playerWidth": 40,
+  "playerHeight": 23,
+  "initJumpSpeed": -6,
+  "canvasBeginningX": 0,
+  "canvasWidth": 600,
+  "canvasHeight": 800,
+  "passHeight": 125,
+  "scoreOuterColor": "#000000",
+  "scoreInnerColor": "#ffffff",
+  "scoreFontSize": "50pt",
+  "scoreFontFamily": "pixelated",
+  "initialScoreValue": 0,
+  "pipeWidth": 50,
+  "gravity": 0.2,
+  "framesPerImage": 15,
+  "birdSpritePath": "../images/birdSprite.png",
+  "playButtonPath": "../images/playButton.png",
+  "groundImagePath": "../images/ground.png",
+  "backgroundImagePath": "../images/background.png",
+  "pipeImages": {
+    "top": "../images/pipeTop.png",
+    "transition": "../images/pipeTransition.png",
+    "body": "../images/pipeBody.png"
+  },
+  "framesPerPipe": 120,
+  "pipeMovePixelsPerFrame": 2,
+  "passYMin": 200,
+  "passYMax": 600
+}
